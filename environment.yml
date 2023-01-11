@@ -1,0 +1,19 @@
+name: flow
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - cuda=11.7.1=0
+  - python=3.10.8=haa1d7c7_0
+  - pytorch=1.13.0=py3.10_cuda11.7_cudnn8.5.0_0
+  - pip
+  - pip:
+    - accelerate==0.14.0
+    - black[jupyter]==22.10.0
+    - jupyter==1.0.0
+    - matplotlib
+    - pip==22.2.2
+    - rise==5.7.1
+    - sklearn
